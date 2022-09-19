@@ -5,5 +5,6 @@ import numpy as np
 a = 1
 b = 2
 c = a+b
+x = ["10","2","3"]
 
-st.markdown(c)
+st.markdown(x)
