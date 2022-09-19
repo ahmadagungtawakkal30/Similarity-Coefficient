@@ -7,4 +7,4 @@ b = 2
 c = a+b
 x = ["10","2","3"]
 
-st.markdown(x + "Hello World!"+ c)
+st.markdown(x, c)
