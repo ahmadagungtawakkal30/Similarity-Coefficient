@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 df = pd.read_csv (r'\comet.csv')
-print (df)
+st.dataframe (df)
 
 # df = pd.DataFrame(
 #    np.random.randn(50, 20),
