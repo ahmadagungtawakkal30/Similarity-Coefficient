@@ -3,7 +3,7 @@ import pandas as pd
 
 df = pd.read_csv (r'comet.csv')
 
-mantap = pd.DataFrame (df,columns=('col %d' % i for i in range(20)))
+mantap = pd.DataFrame (df)
 
 st.dataframe(mantap)
 # df = pd.DataFrame(
