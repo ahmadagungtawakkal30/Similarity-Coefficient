@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-df = pd.read_csv (r'\comet.csv')
+df = pd.read_csv (r'comet.csv')
 st.dataframe (df)
 
 # df = pd.DataFrame(
