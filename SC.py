@@ -5,7 +5,7 @@ df = pd.read_csv (r'comet.csv')
 
 mantap = pd.DataFrame (df)
 
-st.dataframe(df, 50,2)
+st.dataframe(df, 50,4)
 # df = pd.DataFrame(
 #    np.random.randn(50, 20),
 #    columns=('col %d' % i for i in range(20)))
