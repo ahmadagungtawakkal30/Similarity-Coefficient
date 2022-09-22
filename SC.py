@@ -3,7 +3,7 @@ import pandas as pd
 
 df = pd.read_csv (r'comet.csv')
 
-mantap = pd.DataFrame (df])
+mantap = pd.DataFrame (df)
 
 st.table(mantap)
 # df = pd.DataFrame(
