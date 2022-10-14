@@ -1,13 +1,10 @@
 import streamlit as st
-import pandas as pd
+from Comet import COMET
+from Topsis import TOPSIS
+from Vikor import VIKOR
+from metode import SM
 
-df = pd.read_csv (r'comet.csv')
+#titile
+st.title('SIMILARITY COFFICIENT')
 
-mantap = pd.DataFrame (df, columns= ['Alternatif','Rangking'],dtype=float)
-
-st.table(mantap)
-# df = pd.DataFrame(
-#    np.random.randn(50, 20),
-#    columns=('col %d' % i for i in range(20)))
-
-# st.dataframe(df)  # Same as st.write(df)
+SM.Test()
